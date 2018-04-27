@@ -51,6 +51,11 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
+    adapter: 'sails-postgresql',
+    url: 'postgres://ntbvaupu:KvfUD_qLByOGIsoYTo72SKTG4uwmd_Kd@elmer.db.elephantsql.com:5432/ntbvaupu',
+    user: 'ntbvaupu',
+    password: 'KvfUD_qLByOGIsoYTo72SKTG4uwmd_Kd',
+
   },
 
 

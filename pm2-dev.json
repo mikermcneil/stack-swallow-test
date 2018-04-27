@@ -1,0 +1,33 @@
+{
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "exec_mode": "cluster",
+    "ignore_watch" : [
+        ".git",
+        ".idea",
+        ".tmp",
+        "assets/js/vendor",
+        "assets/styles/app.css",
+        "assets/styles/app.css.map",
+        "node_modules",
+        "views/layout.ejs"
+    ],
+    "instances": 1,
+    "listen_timeout": 10000,
+    "max_memory_restart": "4000M",
+    "merge_logs": true,
+    "name": "StackSwallow",
+    "node_args": [
+        "--max-old-space-size=4096",
+        "--expose-gc",
+        "--pending-deprecation"
+    ],
+    "wait_ready": true,
+    "watch": true,
+    "watch_options": {
+        "usePolling": true,
+        "interval": 300
+    },
+    "script": "app.js"
+}

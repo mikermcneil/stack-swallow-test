@@ -2,20 +2,16 @@
 
 a [Sails v1](https://sailsjs.com) application
 
-
-### Links
-
-+ [Get started](https://sailsjs.com/get-started)
-+ [Sails framework documentation](https://sailsjs.com/documentation)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
-
-
 ### Version info
 
 This app was originally generated on Thu Apr 26 2018 23:59:54 GMT+0000 (UTC) using Sails v1.0.1.
+
+### Installation
+
+1. Clone
+2. `npm install`
+3. `$ node app.js` || `$ npm start` || `$ npm test`
+
 
 <!-- Internally, Sails used [`sails-generate@1.15.21`](https://github.com/balderdashy/sails-generate/tree/v1.15.21/lib/core-generators/new). -->
 

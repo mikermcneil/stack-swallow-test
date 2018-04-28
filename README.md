@@ -10,7 +10,7 @@ This app was originally generated on Thu Apr 26 2018 23:59:54 GMT+0000 (UTC) usi
 
 1. Clone
 2. `npm install`
-3. `$ npm start` || `$ npm test`
+3. `npm start` || `npm test`
 
 
 <!-- Internally, Sails used [`sails-generate@1.15.21`](https://github.com/balderdashy/sails-generate/tree/v1.15.21/lib/core-generators/new). -->
